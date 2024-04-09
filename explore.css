@@ -1,0 +1,51 @@
+.home{
+    background: url('../images/home-bg.jpg') no-repeat rgba(0,0,0,.5);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: multiply;
+ }
+ 
+ .home .flex{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+ .home .flex form{
+    background-color: rgba(255,255,255,.1);
+    border-radius: .5rem;
+    padding: 32px;
+    width: 600px;
+
+ }
+ 
+ .home .flex form h3{
+    font-size: 2.5rem;
+    color: white;
+    padding-bottom: 1rem;
+    text-align: center;
+ }
+ 
+ .home .flex form p{
+    padding-top: 1rem;
+    font-size: 1.7rem;
+    color: rgba(255,255,255,.5);
+ }
+ 
+ .home .flex form .box{
+    width: 100%;
+    border-radius: .5rem;
+    padding: 1.4rem;
+    font-size: 1.8rem;
+    color: white;
+    text-transform: none;
+    background: rgba(0,0,0,.3);
+    margin: 1rem 0;
+ }
+ 
+ .home .flex form .box::placeholder{
+    color: rgb(68, 58, 58);
+ }
+ 

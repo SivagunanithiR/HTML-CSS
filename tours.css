@@ -1,0 +1,69 @@
+.tours{
+    background: url('../images/reviews-bg.jpg') no-repeat rgba(0,0,0,.5);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: multiply;
+ }
+ 
+ .tours .grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 35rem);
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1.5rem;
+ }
+ 
+ .tours .grid .box{
+    background-color:rgba(255,255,255,.1);
+    padding: 2rem;
+    backdrop-filter: blur(.4rem);
+    border-radius: .5rem;
+    position: relative;
+ }
+ 
+ .tours .grid .box .price{
+    position: absolute;
+    top: 2.9rem; left: 3rem;
+    border-radius: .5rem;
+    background: rgba(0,0,0,.3);
+    font-size: 1.8rem;
+    padding:.8rem 1rem;
+ }
+ 
+ .tours .grid .box .price i{
+    color: #ff0;
+    margin-right: .5rem;
+ }
+ 
+ .tours .grid .box .price span{
+    color: white;
+ }
+ 
+ .tours .grid .box .image{
+    height: 20rem;
+    width: 100%;
+    object-fit: cover;
+    border-radius: .5rem;
+    margin-bottom: 2rem;
+ }
+ 
+ .tours .grid .box .name{
+    font-size: 2rem;
+    color: white;
+ }
+ 
+ .tours .grid .box .address{
+    font-size: 1.7rem;
+    color: rgba(255,255,255,.5);
+    line-height: 1.5;
+    padding: .5rem 0;
+ }
+ 
+ .tours .grid .box:hover{
+    background-color:rgba(0,0,0,.3);
+ }
+ 
+ .tours .grid .box:hover .price{
+    background-color: black;
+ }

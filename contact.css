@@ -1,0 +1,107 @@
+.contact{
+    background: url('../images/contact-bg.jpg') no-repeat rgba(0,0,0,.5);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: multiply;
+ }
+ 
+ 
+ 
+ .contact .row form{
+    padding: 2rem;
+    background-color: rgba(255,255,255,.1);
+    border-radius: .5rem;
+    backdrop-filter: blur(.4rem);
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 220px;
+ }
+ 
+ .contact .row form h3{
+    text-align: center;
+    font-size: 2.5rem;
+    color: white;
+    padding-bottom: 1rem;
+ }
+ 
+ .contact .row form .box{
+    width: 100%;
+    margin: 1rem 0;
+    border-radius: .5rem;
+    background-color: rgba(0,0,0,.3);
+    padding: 1.4rem;
+    font-size: 1.8rem;
+    color: white;
+    text-transform: none;
+ }
+ 
+ .contact .row form .box::placeholder{
+    color: rgba(255,255,255,.5);
+ }
+ 
+ .contact .row form textarea{
+    height: 15rem;
+    resize: none;
+ }
+ 
+ .contact .grid{
+    margin: 3rem 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 30rem);
+    justify-content: center;
+    gap: 1.5rem;
+ }
+ 
+ .contact .grid .box{
+    padding:3rem 2rem;
+    background-color: rgba(255,255,255,.1);
+    border-radius: .5rem;
+    backdrop-filter: blur(.4rem);
+    text-align: center;
+ }
+ 
+ .contact .grid .box i{
+    height: 5rem;
+    width: 6rem;
+    line-height: 5rem;
+    font-size: 2.5rem;
+    background-color: rgba(0,0,0,.3);
+    border-radius: .5rem;
+    color: white;
+    margin-bottom: 1.5rem;
+ }
+ 
+ .contact .grid .box h3{
+    padding: .5rem 0;
+    font-size: 2rem;
+    color: #ff0;
+ }
+ 
+ .contact .grid .box a{
+    display: block;
+    padding-top: 1rem;
+    font-size: 1.6rem;
+    color:rgba(255,255,255,.5);
+    line-height: 1.5;
+    text-transform: none;
+ }
+ 
+ .contact .grid .box a:hover{
+    color:white;
+    text-decoration: underline;
+ }
+ 
+ 
+ .contact .credit{
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    color:rgba(255,255,255,.5);
+ }
+ 
+ .contact .credit span{
+    color: #ff0;
+ }
